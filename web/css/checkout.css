@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2021, 11:47:44 PM
+    Author     : thanh
+*/
+
+.order {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 30px;
+  margin-top: 0;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+}
+
+.col-50 {
+  -ms-flex: 40%; /* IE10 */
+  flex: 40%;
+}
+
+.col-75 {
+  -ms-flex: 60%; /* IE10 */
+  flex: 60%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container-order {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container-order {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+    
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  border: none;
+  width: 210px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  margin-right: 0;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+.fs-24 {
+    border-left: 1px solid;
+    padding-left: 25px;
+}
+
+#date {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 11px;
+}
+
+
+.info {
+    padding-right: 100px;
+}
+
+.end {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+}
+
+.infoCheckout {
+    flex: 1;
+}
+

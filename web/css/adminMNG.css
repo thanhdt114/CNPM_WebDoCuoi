@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2022, 11:36:20 AM
+    Author     : thanh
+*/
+.w3-container {
+    
+    padding-right: 0;
+    padding-left: 0;
+    height: 700px;
+    background-color: #F1F1F1;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-right: 0;
+  width: 204.86px;
+  background-color: #F1F1F1;
+}
+
+.icon-nav{
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.w3-bar-block .w3-bar-item{
+    padding: 16px 16px;
+    margin-right: 12px;
+}
+
+.tb-edit {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.col-edit {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.edit-ad{
+    padding-left: 20px;
+    position: unset;
+    top: 130px;
+}
+
+.img-mng{
+    width: 100px;
+    height: auto;
+}
+
+img{
+    width: 100%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form-detail {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.detailProduct-img {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.btn-admin {
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+.btn-admin1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.btn-admin1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.btn-admin-b {
+    padding-left: 50px;
+    text-align: right;
+}

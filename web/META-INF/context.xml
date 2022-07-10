@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CNPM_WebDoCuoi">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="CNPM_WebDoCuoi" password="u33UUb2CED" type="javax.sql.DataSource" url="jdbc:mysql://remotemysql.com:3306/SFVfXiWAvV?zeroDateTimeBehavior=CONVERT_TO_NULL" username="SFVfXiWAvV"/>
+</Context>
